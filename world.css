@@ -1,0 +1,76 @@
+/* Base Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    font-size: 18px;
+    line-height: 1.6;
+    letter-spacing: 0.02em;
+    background: linear-gradient(to bottom, #cfd9df, #e2ebf0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+    position: relative;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #007bff;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+/* Input and Select Styles */
+.input-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.input-group input, .input-group select {
+    padding: 15px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    margin: 10px;
+    font-size: 18px;
+    width: 250px;
+    color: #333;
+}
+
+.input-group select {
+    background-color: #f9f9f9;
+}
+
+/* Button Styles */
+button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
